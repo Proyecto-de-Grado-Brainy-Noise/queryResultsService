@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-hi6r)+_optmfpo89!_2g9nz(29v^s7$$ld)plu7p69uzo^#j8+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -93,16 +93,16 @@ DATABASES = {
             'password': 'example',
             'authSource': 'admin',
             'authMechanism': 'SCRAM-SHA-1',
-            # 'username': 'admin_brainy',
-            # 'password': 'admin_es7_j22_s3b_writer',
-            # 'authSource': 'admin',
-            # 'authMechanism': 'SCRAM-SHA-1',
+  
         }
     }
 
 }
 
-
+          # 'username': 'admin_brainy',
+            # 'password': 'admin_es7_j22_s3b_writer',
+            # 'authSource': 'admin',
+            # 'authMechanism': 'SCRAM-SHA-1',
 
 
 # Password validation
