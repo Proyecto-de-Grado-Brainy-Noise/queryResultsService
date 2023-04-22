@@ -21,6 +21,9 @@ Once the complete project is deployed the IP address will change and probably it
 | ------ | ------ | ------ | ------ | ------ |
 | GET | http://localhost:9005/queries/getAllPredictionsByEmail/ |This endpoint has the unique purpose to received the email of the investigator and returns a list of JSON objects with all the results of the predictions.|**email**(String)||
 | GET | http://localhost:9005/queries/getAllResultsFileByEmail/ |This endpoint has the unique purpose to received the email of the investigator and returns a **.csv** file with the all the results.|**email**(String)||
+| GET | http://localhost:9005/queries/getCurrentResultPrediction/ |This endpoint has the unique purpose to received the task_id and returns the json of the result.|**task_id**(String)||
+| GET | http://localhost:9005/queries/getCurrentResultPredictionFile/ |This endpoint has the unique purpose to received the task_id  and returns a **.csv** file with the result.|**task_id**(String)||
+
 
 👽 Feel free to make any changes in the code 👽
 
